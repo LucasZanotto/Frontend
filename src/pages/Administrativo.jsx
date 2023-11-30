@@ -32,7 +32,7 @@ export default function Administrativo() {
         <label htmlFor='email'>Email</label>
         <input id='email' value={email} onChange={(e) => setEmail(e.target.value)} />
         <label htmlFor='senha'>Senha</label>
-        <input id='senha' value={senha} onChange={(e) => setSenha(e.target.value)} />
+        <input type='password' id='senha' value={senha} onChange={(e) => setSenha(e.target.value)} />
         <button onClick={enviarForm} type='submit'>Entrar</button>
       </form>
     </div>
