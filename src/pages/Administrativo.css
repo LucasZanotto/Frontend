@@ -1,0 +1,54 @@
+.sla01 {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.sla01 label {
+  margin-bottom: 5px; 
+}
+
+.sla01 input {
+  padding: 8px;
+  margin-bottom: 10px; 
+  border: 4px solid black; 
+}
+
+.sla01 button {
+  padding: 8px;
+  margin-bottom: 5px; 
+  border: 4px solid black; 
+}
+
+.sla01 textarea {
+  padding: 50px;
+  margin-bottom: 5px; 
+  border: 4px solid black; 
+}
+
+.titulo-centralizado {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+.tabela-container {
+  /* max-width: 10%; */
+  margin: 0 auto;
+}
+
+.tabela-mensagens {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+.tabela-mensagens th, .tabela-mensagens td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+
+

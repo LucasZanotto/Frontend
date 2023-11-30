@@ -1,0 +1,16 @@
+.header-legal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.header-legal a {
+  padding-right: 20px;
+  text-decoration: none;
+  color: black
+}
+
+.header-legal p {
+  padding-right: 20px;
+}
